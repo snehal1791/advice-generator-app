@@ -1,13 +1,23 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;800&family=Spartan:wght@400;500;700;900&display=swap');
+:root {
+  --primary-Light-Cyan: hsl(193, 38%, 86%);
+  --primary-Neon-Green: hsl(150, 100%, 66%);
+  --nuetral-Grayish-Blue: hsl(217, 19%, 38%);
+  --nuetral-Dark-Grayish-Blue: hsl(217, 19%, 24%);
+  --nuetral-Dark-Blue: hsl(218, 23%, 16%);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html,
+body {
+  margin: 0;
+  font-family: 'Manrope', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 28px;
+  /* min-height: 100vh; */
 }
+
+* {
+  box-sizing: border-box;
+}
+

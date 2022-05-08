@@ -1,0 +1,6 @@
+.decide-button {
+    background-image: url('./images/icon-dice.svg');
+    background-repeat: no-repeat;
+    background-color: var(--primary-Neon-Green);
+}
+
