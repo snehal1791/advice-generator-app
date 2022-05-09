@@ -7,6 +7,14 @@
   --nuetral-Dark-Blue: hsl(218, 23%, 16%);
 }
 
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  height: 100vh;
+}
+
 html,
 body {
   margin: 0;
@@ -17,7 +25,4 @@ body {
   /* min-height: 100vh; */
 }
 
-* {
-  box-sizing: border-box;
-}
 
